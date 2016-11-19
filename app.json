@@ -38,7 +38,6 @@
                     "log": "*",
                     "response": "*",
                     "request": "*",
-                    "ops": "*",
                     "error": "*"
                   }
                 ]
