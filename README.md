@@ -1,7 +1,7 @@
 # onesie-api
 Backend for onesie.
 
-So far just a very bare-bones Hapi app, wit hone endpoint.
+So far just a very bare-bones Hapi app, with one endpoint.
 
 To run it:
 ```
