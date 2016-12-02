@@ -23,7 +23,7 @@ describe('Status controller', function(done) {
 	wreck.get('http://localhost:3000/status', { json: true}, (error, response, payload) => {
       expect(payload).to.have.property('status','ok');
       expect(response.statusCode).to.equal(200);
-	  done();
+      done();
 	});
   });
 });
