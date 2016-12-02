@@ -20,10 +20,10 @@ describe('Status controller', function(done) {
   });
 
   it('should return ok, with status 200', function(done) {
-	wreck.get('http://localhost:3000/status', { json: true}, (error, response, payload) => {
+    wreck.get('http://localhost:3000/status', { json: true}, (error, response, payload) => {
       expect(payload).to.have.property('status','ok');
       expect(response.statusCode).to.equal(200);
       done();
-	});
+    });
   });
 });
