@@ -10,9 +10,9 @@ describe('Status controller', function(done) {
   beforeEach(function(next) {
     this.server = new hapi.Server();
     this.server.connection({ port: 3000 });
-    this.server.register(onesie);
-    this.server.start(next);
-
+    this.server.register(onesie).then(() => {
+      return this.server.start(next);
+    });
   });
 
   afterEach(function(done) {
