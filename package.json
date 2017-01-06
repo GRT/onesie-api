@@ -18,6 +18,8 @@
     "joi": "^10.0.2",
     "lodash": "^4.17.2",
     "mocha": "^3.1.2",
+    "oneops-api-plugin": "git+https://github.com/GRT/oneops-api-plugin.git",
+    "rejoice": "^4.0.0",
     "wreck": "^10.0.0"
   },
   "devDependencies": {

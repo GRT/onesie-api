@@ -54,6 +54,9 @@
     },
     {
       "plugin": "./lib/"
+    },
+    {
+      "plugin": "oneops-api-plugin"
     }
   ]
 }
